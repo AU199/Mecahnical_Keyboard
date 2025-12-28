@@ -1,1 +1,18 @@
-
+Item	Description	Quantity	Unit Price	Total Price	Link	Running Total
+Kailh Hotswap Switches (70 PCS)	Need for the mechanical Keyboard switches	1	10.99	10.99	https://a.co/d/5RbgDzQ	10.99
+Capacitor: 10 nano farad	Need for voltage regulation in the MCP23017	2	0.001	0.002	Part is from JLCPCB	10.99
+Capacitor: 10 micro farad	Need for voltage regulation in the XIAO-nRF52840	2	0.0047	0.0094	Part is from JLCPCB	11.00
+Diode	Needed for switch detection	128	0.0086	1.1008	Part is from JLCPCB	12.10
+M2-0.4x6mm Fine Thread Philips Screw (50 PCS)	Need for Mounting the PCB inside the case	1	4.82	4.82	https://a.co/d/5RbgDzQ	16.92
+MCP23017-E/SO	I/O expander that I need in order to make the full keyboard	1	1.62	1.62	https://www.digikey.com/short/zqf7w8f9	
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
