@@ -17,3 +17,11 @@ BOM (Used an program for this to convert to a table in a .md file)
 | Key Caps                                      | Needed to put on the swtiches                                | 1                                                                             | $19.99     | $19.99      | https://a.co/d/9hdMVx5                                                      | $116.12       |
 | Resistor Network                              |  Pull up Resistor chain                                      | 1                                                                             | $2.92      | $2.92       | https://www.digikey.com/short/921tz8h5                                      | $119.04       |
 | Soldering Wire (Lead Free)                    |  Needed For Soldering                                        |  1                                                                            | $6.99      | $6.99       | https://a.co/d/9mPJm0G                                                      | $126.03       |
+
+# PCB Image
+![PCB Image](./Images/PCB.png)
+
+#CAD Image
+![CAD Image](./Images/3DModel.png)
+# 3D Render '0'
+![3D Render](./Images/image.jpg)
