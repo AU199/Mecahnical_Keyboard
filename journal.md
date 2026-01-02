@@ -69,3 +69,14 @@ _Time spent: 4.0h_
 I have Finished writing and making my Github. I am now going to be submitting. Now the wait will begin. I have learned a lot from this. I have only made basic PCBs before this and never actually manufactured it. ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzE1MDYsInB1ciI6ImJsb2JfaWQifX0=--41e14c8ae9d4dea06cecf0b219c90973070a8571/image.png)
   
 
+## 1/1/2026 - Shipping information  
+
+_Time spent: 0.1h_  
+
+As per the instructions of the person who reviewed this project, they told me to provide proof that the shipping option I had selected was the cheapest one. though the price of this one is a little lower (since for some reason JLC didn't allow me to go back and look at my order and take a screenshot of that) the idea and the problem is the same. Since my project weight is above the GSDL limit, I am using the next cheapest option FEDEX Express DDP, since that is the only option available that is cheap
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjYxOTUsInB1ciI6ImJsb2JfaWQifX0=--5439d0ed127bf5f0d79b5cb6b055e2e27ec0643d/image.png)![image](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjYxOTYsInB1ciI6ImJsb2JfaWQifX0=--5bb562a939e75f9cc9b28d01510458ef84a66af5/image.png)
+These are the following prices and my project weight. I have the options selected as 5 PCBs and 2 PCBAs, the PCBAs are required as the things on there are SMDs resistors and diodes that would be really tedious to route again as well as resulting in a bigger overall pcb, which would bring up the same problem of dimensions.
+(Don't worry about the hours, I had to add it because 0 hours wasn't allowed) (I love writing scholarship essays =) )
+
+   
+
