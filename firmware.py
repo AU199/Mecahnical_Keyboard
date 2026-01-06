@@ -1,5 +1,6 @@
 import board
 import busio
+import adafruit_ssd1306
 
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.scanners import DiodeOrientation
@@ -12,6 +13,12 @@ from adafruit_mcp230xx.mcp23017 import MCP23017
 
 i2c = busio.I2C(board.D5,board.D4,frequency = 400000)
 mcp = MCP23017(i2c,adress=0x20)
+
+display = adafruit_ssd1306.SSD1306_I2C(126,64,addr = 0x3c)
+display.fill(0)
+display.text("HELLO WORLD :)",0,0,1)
+display.show()
+
 NumKeys, Orientation = 61,DiodeOrientation.COL2ROW
 
 class Scanner:
