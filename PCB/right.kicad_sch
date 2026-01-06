@@ -312,6 +312,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_Expansion:MCP23017_SO"
 			(pin_names
 				(offset 1.016)
@@ -2126,6 +2250,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 137.16) (xy 26.67 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521992fe-ede8-4d48-aeba-910517d2a754")
+	)
+	(wire
+		(pts
 			(xy 200.66 82.55) (xy 213.36 82.55)
 		)
 		(stroke
@@ -2163,6 +2297,16 @@
 			(type default)
 		)
 		(uuid "573e30f1-3b26-4bf2-869d-f98f82068ab9")
+	)
+	(wire
+		(pts
+			(xy 26.67 125.73) (xy 26.67 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5766b144-94f7-49a7-844c-e14f7301053a")
 	)
 	(wire
 		(pts
@@ -3270,6 +3414,28 @@
 			)
 		)
 	)
+	(global_label "Resitor Output"
+		(shape input)
+		(at 26.67 125.73 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b2a44fc-ba37-491e-ae89-8e1d526e9041")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 108.8959 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col 6"
 		(shape input)
 		(at 165.1 48.26 90)
@@ -3446,6 +3612,28 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape input)
+		(at 26.67 139.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "644d3947-dbaf-4419-a0d8-bd236ed18c07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 146.1928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col 2"
 		(shape input)
 		(at 67.31 97.79 0)
@@ -3464,6 +3652,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Resitor Output"
+		(shape input)
+		(at 31.75 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d4429d3-664f-4222-a747-54829232ded5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.9159 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3547,28 +3757,6 @@
 		(uuid "8e9baa64-717a-409e-93eb-99c07a1d4ced")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.0882 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 31.75 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9082cfe2-a882-402a-89ca-2e3cd8e274bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.2572 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9837,6 +10025,76 @@
 			(project "Single"
 				(path "/426f728c-d93c-40eb-b5f2-091f443adbca/fdcbd120-1d4a-47bd-be35-d0401c54bbb0"
 					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 26.67 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a86984b1-bcc2-480e-b681-972fe7b76b36")
+		(property "Reference" "R1"
+			(at 29.21 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 29.21 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.892 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 26.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "226057bc-8c6e-4fc9-b661-da1e112af21a")
+		)
+		(pin "2"
+			(uuid "a4c03f0b-2544-4dd3-a5d3-c6ab17fa3c06")
+		)
+		(instances
+			(project ""
+				(path "/426f728c-d93c-40eb-b5f2-091f443adbca/fdcbd120-1d4a-47bd-be35-d0401c54bbb0"
+					(reference "R1")
 					(unit 1)
 				)
 			)

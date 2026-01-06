@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.6,
-          "width": 1.6
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 2.05
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -484,6 +484,10 @@
       {
         "netclass": "Default",
         "pattern": "3V3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Reset"
       }
     ]
   },
@@ -492,7 +496,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/",
+      "plot": "baller/",
       "pos_files": "./",
       "specctra_dsn": "",
       "step": "Single.step",
